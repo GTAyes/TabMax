@@ -1,0 +1,150 @@
+
+body,html{
+
+    height: 100%;
+    
+    }
+    #myBtn:hover {
+    background: #ddd;
+    color: black;
+    }
+    body {
+    background-image: url('../assets/background.jpg') !important;
+    
+     /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+  
+  /* Style the button used to pause/play the video */
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    top: calc(50% - 200px);
+    margin: 0px;
+    user-select: none;
+    pointer-events:all;
+    
+}
+
+.home-container .container {
+   
+    display: block;
+    height: inherit;
+    width: fit-content;
+    
+}
+
+.home-container img {
+    margin-left: 70em;
+    
+    position: absolute;
+}
+
+.home-container .text {
+    margin-left: 20em;
+  font-family: "Audiowide", sans-serif;
+    text-align: left;
+}
+
+.language {
+    right: 30px !important;
+    left: unset !important;
+    bottom: 20px;
+}
+
+.home-container h1 {
+    font-family: "chinese rocks rg", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    opacity: 0;
+    text-align: left;
+    
+    animation: home-text-enter 0.7s ease-out forwards;
+}
+
+.home-container h2 {
+    letter-spacing: 2px;
+    font-family: "chinese rocks rg", sans-serif;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 105px;
+    margin-right: 100px;
+    margin-top: -75px;
+    position: relative;
+    opacity: 0;
+    color:rgb(242, 252, 109);
+    animation: home-text-enter 0.7s 0.5s ease-out forwards;
+}
+
+
+.home-container button{
+    border: none;
+    font-family: "chinese rocks rg";
+    color: rgb(152, 255, 56);
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px 0px;
+    cursor: pointer;
+    margin-left: -275px;
+    margin-right: 275px;
+    margin-top: 175px;
+    
+    background-color: rgb(27, 27, 27);
+    
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 15px;
+}
+
+
+
+.home-container a {
+    font-family: 'Lato';
+    font-weight: 200;
+    text-align: center;
+    margin-top: -75px;
+    position: relative;
+    opacity: 0;
+    cursor: default;
+    pointer-events: all;
+    animation: home-text-enter 0.7s 0.5s ease-out forwards;
+}
+
+
+.audio {
+    margin-left: -290x;
+    margin-right: -160px;
+    margin-top:  180px;
+}
+
+@keyframes home-text-enter {
+    0% {
+        left: -20px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
